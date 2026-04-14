@@ -1,4 +1,13 @@
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+main {
+  display: flex;
+  gap: 20px;
+  
+}
 .elem {
   aspect-ratio:1;
   border: 1px solid black;
@@ -8,8 +17,32 @@
 }
   
 .tarolo {
-    max-width:150px;
-    margin:auto;
+  max-width:150px;
+  margin:auto;
   display: grid;
   grid-template-columns: 50px 50px 50px;
+  justify-content: center;
+  gap: 5px;
+}
+#regisztracio label { 
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 5px;
+}
+header, section, main, footer {
+  margin: 0 auto 15px auto;
+  width: 100%;
+  max-width: 850px;    
+
+}
+ aside {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+
+.jobb-oldal {
+  flex: 0 0 250px;
+  min-height: 320px;
 }

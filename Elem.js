@@ -49,10 +49,4 @@ export function ellenorzes(jok) {
   }
   return null;
 }
-export function ujraindito(){
-  const ujrainditoGomb = document.getElementById("ujra");
-  ujrainditoGomb.addEventListener("click",()=>{
-    window.location.reload();
-    
-  });
-}
+
