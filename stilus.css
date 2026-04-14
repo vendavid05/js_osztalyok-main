@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: rgb(179, 169, 169);
   padding: 20px;
 }
 main {
@@ -36,7 +36,7 @@ header, section, main, footer {
 
 }
  aside {
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 15px;
   max-width: 300px;
 }

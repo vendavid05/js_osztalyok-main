@@ -29,16 +29,14 @@ window.addEventListener("katt", (event) => {
 
 
 
-    const gyozelem = ellenorzes(TABLA);
-        if (gyozelem === "X") {
-          kijelzo.innerText = nev1 + " GYŐZÖTT!";
-        } else if (gyozelem === "O") {
-          kijelzo.innerText = nev2 + " GYŐZÖTT!";
-        } else if (lepes === 9) {
-          kijelzo.innerText = "Döntetlen!";
-        }
-    
-
-  }
+  const gyozelem = ellenorzes(TABLA);
+    if (gyozelem === "X") {
+      kijelzo.innerText = nev1 + " GYŐZÖTT!";
+    } else if (gyozelem === "O") {
+    kijelzo.innerText = nev2 + " GYŐZÖTT!";
+    } else if (lepes === 9) {
+      kijelzo.innerText = "Döntetlen!";
+}
+}
 });      
 
